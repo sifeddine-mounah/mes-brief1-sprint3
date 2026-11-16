@@ -17,7 +17,119 @@
     <link rel="stylesheet" href="style.css" />
 
     <!-- defer : le script s'exécute une fois le HTML chargé -->
-    <script src="script.js" defer></script>
+    
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>ATLASS VOYAGES</h1>
+    </header>
+    <main>
+      <section class="firstContainer">
+        <h2>
+          Explorer le monde
+        </h2>
+        <p>
+          Choisis un continent, parcours les pays et trouve ta prochaine destination.
+        </p>
+        <div class="rechercheCarte">
+        <div>
+          <h5>
+            Continent
+          </h3>
+          <select name="pays" id="paysSelector" class="paysSelector">
+            <option value="Afrique">Afrique</option>
+          </select>
+        </div>
+        <div class="countryInput">
+          <label for="country">Rechercher un pays</label><br>
+          <input type="text" placeholder="Ex. : Morocco" class="rechercheCountry">
+
+        </div>
+        <button class="trierBtn">
+          Trier par population
+        </button>
+      </section>
+</div>
+<section class="cartesContainer" id="cartesContainer">
+  <!-- <article class="carte">
+    <img src="assets/Drapeau (img).png" alt="thumbnail" class="image">
+    <div class="textsContainer">
+    <h2>
+      morocco
+    </h2>
+    <div class="capitale">
+      <p>
+        Capitale
+      </p>
+      <h5>
+        Rabat
+      </h5>
+    </div>
+    <div class="population">
+      <p>
+        Population
+      </p>
+      <h5>
+        37 457 971
+      </h5>
+      </div>
+    </div>
+  </article>
+
+  <article class="carte">
+    <img src="assets/Drapeau (img).png" alt="thumbnail" class="image">
+    <div class="textsContainer">
+    <h2>
+      morocco
+    </h2>
+    <div class="capitale">
+      <p>
+        Capitale
+      </p>
+      <h5>
+        Rabat
+      </h5>
+    </div>
+    <div class="population">
+      <p>
+        Population
+      </p>
+      <h5>
+        37 457 971
+      </h5>
+      </div>
+    </div>
+  </article>
+
+  <article class="carte">
+    <img src="assets/Drapeau (img).png" alt="thumbnail" class="image">
+    <div class="textsContainer">
+    <h2>
+      morocco
+    </h2>
+    <div class="capitale">
+      <p>
+        Capitale
+      </p>
+      <h5>
+        Rabat
+      </h5>
+    </div>
+    <div class="population">
+      <p>
+        Population
+      </p>
+      <h5>
+        37 457 971
+      </h5>
+      </div>
+    </div>
+  </article> -->
+</section>
+      <footer>
+        <p>© 2026 Atlas Voyages · Données : countries.dev</p>
+      </footer>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
 </html>
